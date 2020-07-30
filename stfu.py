@@ -23,8 +23,14 @@ async def guess(ctx,message):
         embed = discord.Embed()
         embed.set_image(url='http://storage-website-gacha.herokuapp.com/Image/enigma.png')
         await ctx.author.send(embed=embed)
+    elif message.lower() == "stfuplease!":
+        await ctx.author.send(embed=discord.Embed(title="Search in summons you shall find the answer"))
+    elif message.lower() == "stfuplease!":
+        await ctx.author.send(embed=discord.Embed(title="https://discord.gg/HGnPJH4"))
     else:
         await ctx.author.send(embed=discord.Embed(title="Try agin !"))
+    await ctx.message.delete()
+
 
 @client.command()
 async def hint(ctx):
