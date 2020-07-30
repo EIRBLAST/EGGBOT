@@ -25,7 +25,7 @@ async def guess(ctx,message):
         await ctx.author.send(embed=embed)
     elif message.lower() == "stfuplease!":
         await ctx.author.send(embed=discord.Embed(title="Search in summons you shall find the answer"))
-    elif message.lower() == "stfuplease!":
+    elif message.lower() == "whatnow":
         await ctx.author.send(embed=discord.Embed(title="https://discord.gg/HGnPJH4"))
     else:
         await ctx.author.send(embed=discord.Embed(title="Try agin !"))
