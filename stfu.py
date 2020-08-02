@@ -31,6 +31,14 @@ async def guess(ctx,message):
         await ctx.author.send(embed=discord.Embed(title="Try agin !"))
     await ctx.message.delete()
 
+@client.command()
+async def code(ctx,message):
+    if message.lower() == "13491014171":
+        await ctx.author.send(embed=discord.Embed(title="DM EIRBLAST THIS CODE GG !"))
+    else:
+        await ctx.author.send(embed=discord.Embed(title="Try agin !"))
+
+
 
 @client.command()
 async def hint(ctx):
