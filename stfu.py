@@ -18,7 +18,7 @@ async def on_ready():
 @client.command()
 async def guess(ctx,message):
     if message.lower() == "CAT":
-        await ctx.author.send(embed=discord.Embed(title="You got one thing"))
+        await ctx.author.send(embed=discord.Embed(title="https://discord.gg/6K4t5qxm7W"))
     else:
         await ctx.author.send(embed=discord.Embed(title="Try agin !"))
     await ctx.message.delete()
