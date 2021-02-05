@@ -17,7 +17,7 @@ async def on_ready():
 
 @client.command()
 async def guess(ctx,message):
-    if message.lower() == "egg guess CAT":
+    if message.lower() == "egg guess cat":
         await ctx.author.send(embed=discord.Embed(title="https://discord.gg/6K4t5qxm7W"))
     else:
         await ctx.author.send(embed=discord.Embed(title="Try agin !"))
